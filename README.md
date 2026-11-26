@@ -1,8 +1,8 @@
 <h1 align="center">Hi, I'm Rajesh Thokala 👋</h1>
-<h3 align="center">AI Full Stack Engineer · 12+ years · Bangalore</h3>
+<h3 align="center">AI Full Stack Engineer · 13+ years · Bangalore</h3>
 
 <p align="center">
-I build production-grade <b>RAG systems</b>, <b>agentic AI</b> and <b>LLM pipelines</b>, from the model and data to the API, the UI and the cloud deployment.
+13+ years of building backend systems, from <b>Java, Spring Boot and microservices</b> to today's production-grade <b>RAG systems</b>, <b>agentic AI</b> and <b>LLM pipelines</b>, covering the model and data, the API, the UI and the cloud deployment.
 </p>
 
 <p align="center">
@@ -39,6 +39,24 @@ T5 Text-to-SQL with LoRA/QLoRA fine-tuning, RAG few-shot examples at inference, 
 
 ---
 
+## ☕ Java, Spring Boot and microservices: where it started
+
+Before AI, I spent years building **enterprise backends in Java and Spring Boot**, and that experience shapes how I build AI systems today: clean service boundaries, configuration, resilience and testing.
+
+| Area | What I built | Repos |
+|---|---|---|
+| 🧩 **Spring Cloud microservices** | Netflix OSS stack: Eureka service registry, Spring Cloud Config server, Zuul API gateway, Hystrix circuit breaker and dashboard, Docker Compose, plus a traffic generator to exercise it | [springcloud-netflix-oss-poc](https://github.com/rajeshthokala10/springcloud-netflix-oss-poc) · [webservice-registry](https://github.com/rajeshthokala10/webservice-registry) · [config-server](https://github.com/rajeshthokala10/config-server) · [SpringCloudZuul](https://github.com/rajeshthokala10/SpringCloudZuul) |
+| 🛒 **Domain microservices** | An e-commerce system split into Product, Pricing and Discount services | [EcommerceMicroservice](https://github.com/rajeshthokala10/EcommerceMicroservice) · [studnet-api](https://github.com/rajeshthokala10/studnet-api) |
+| 🌱 **Spring Boot REST and data** | CRUD REST APIs with JPA/Hibernate on MySQL and Oracle, and a full-stack Spring Boot + React app | [SpringBootRestCrudApplication](https://github.com/rajeshthokala10/SpringBootRestCrudApplication) · [SpringBoot-Jpa_Oracle](https://github.com/rajeshthokala10/SpringBoot-Jpa_Oracle) · [springboot-oracledb](https://github.com/rajeshthokala10/springboot-oracledb) · [SpringBoot-ReactApp](https://github.com/rajeshthokala10/SpringBoot-ReactApp) |
+| 🦠 **COVID-19 tracker (2020)** | A Spring Boot app that tracked India's COVID-19 numbers | [COVID19-R-TRACKER](https://github.com/rajeshthokala10/COVID19-R-TRACKER) |
+
+### 🧮 Problem solving and modern Java
+Data structures, algorithms and interview-style problems in Java (HackerRank and FAANG-style questions), plus hands-on practice with **Java 8+**: lambdas, streams, functional interfaces, Optional and the newer language features.
+
+[ProblemSolving-Latest](https://github.com/rajeshthokala10/ProblemSolving-Latest) · [java8Practice](https://github.com/rajeshthokala10/java8Practice) · [java8](https://github.com/rajeshthokala10/java8) · [PracticeCode](https://github.com/rajeshthokala10/PracticeCode) · [DataStructures-Part02](https://github.com/rajeshthokala10/DataStructures-Part02)
+
+---
+
 ## 🛠️ Tech stack
 
 **AI / LLM:** &nbsp;
@@ -51,10 +69,13 @@ T5 Text-to-SQL with LoRA/QLoRA fine-tuning, RAG few-shot examples at inference, 
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?logo=qdrant&logoColor=white)
 
 **Backend:** &nbsp;
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
+![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-6DB33F?logo=spring&logoColor=white)
+![Hibernate](https://img.shields.io/badge/JPA%20%2F%20Hibernate-59666C?logo=hibernate&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white)
 
@@ -66,6 +87,8 @@ T5 Text-to-SQL with LoRA/QLoRA fine-tuning, RAG few-shot examples at inference, 
 ![Expo](https://img.shields.io/badge/Expo-000020?logo=expo&logoColor=white)
 
 **Data and cloud:** &nbsp;
+![Oracle](https://img.shields.io/badge/Oracle-F80000?logo=oracle&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
@@ -81,7 +104,7 @@ T5 Text-to-SQL with LoRA/QLoRA fine-tuning, RAG few-shot examples at inference, 
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=rajeshthokala10&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajeshthokala10&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top languages"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajeshthokala10&layout=compact&langs_count=2&hide=html,css,javascript,typescript,jupyter%20notebook,ruby,tsql,shell,rich%20text%20format,scss,dockerfile,makefile,procfile,batchfile,c%2B%2B,c%23,c,go&custom_title=Languages&theme=tokyonight&hide_border=true" alt="Top languages"/>
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=rajeshthokala10&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
@@ -93,12 +116,6 @@ T5 Text-to-SQL with LoRA/QLoRA fine-tuning, RAG few-shot examples at inference, 
 > Much of my current work, including Storyley.AI, is in private repositories, so these public numbers show only part of it.
 
 ---
-
-## 📂 Earlier work
-- **Spring Cloud microservices:** config server, Eureka registry, Zuul gateway, OAuth auth server ([springcloud-netflix-oss-poc](https://github.com/rajeshthokala10/springcloud-netflix-oss-poc), [EcommerceMicroservice](https://github.com/rajeshthokala10/EcommerceMicroservice))
-- **Spring Boot REST:** with MySQL, Oracle and MongoDB ([SpringBootRestCrudApplication](https://github.com/rajeshthokala10/SpringBootRestCrudApplication), [SpringBoot-ReactApp](https://github.com/rajeshthokala10/SpringBoot-ReactApp))
-- **Problem solving and Java 8+:** data structures, algorithms, competitive programming ([ProblemSolving-Latest](https://github.com/rajeshthokala10/ProblemSolving-Latest), [java8Practice](https://github.com/rajeshthokala10/java8Practice))
-- **COVID-19 (2020):** India trackers and a bot ([COVID19-R-TRACKER](https://github.com/rajeshthokala10/COVID19-R-TRACKER))
 
 ---
 
