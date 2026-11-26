@@ -20,7 +20,15 @@ A parent or teacher picks a child, a theme and a voice. The platform writes a sa
 - **Microservices:** FastAPI services for users, stories, voices, pictures and safety, plus a Next.js web app and an Expo mobile app
 - **AI:** LLM story generation, a fail-closed child-safety gate on every field, an evaluation harness, TTS and voice cloning on GPU (RunPod)
 - **Data and ops:** Postgres with versioned Alembic migrations, MongoDB and Redis; CI/CD to Railway, health checks, structured logs with personal data redacted, Prometheus/OTel signals
-- **Next:** a native **Telugu children's-story model** (Gemma 3, QLoRA) trained on Ramayana, Mahabharata, Panchatantra and Tenali Ramakrishna tales
+- **Next:** a Telugu children's-story model (see TeluguSLM below), routed in for stories requested in Telugu
+
+### 🪔 TeluguSLM: a small language model for Telugu children's stories *(in progress)*
+A fine-tuned small language model that tells children's stories in natural Telugu, using Telugu words rather than transliterated English, for ages 3–10. It will run as its own service inside Storyley.AI.
+- **Model:** Gemma 3 4B-it with **QLoRA fine-tuning on MLX** (Apple Silicon); Gemma 3 1B for fast experiments
+- **Sources:** public-domain Telugu texts from Telugu Wikisource: మొల్ల రామాయణము (Molla Ramayanam), భారత నీతికథలు (moral tales from the Mahabharata) and Tenali Ramakrishna stories. 148 source episodes are collected so far, tagged by tradition and character
+- **Dataset pipeline:** licence-tracked ingestion, a teacher model that writes child-friendly retellings, automatic checks (length, script, blocklist, child-safety), age bands (3–5, 6–7, 8–10), and human review before anything reaches training
+- **Quality gates:** evaluation for native vocabulary, matching the right tradition, story length and safety. Training data never contains real child data
+- **Status:** model set up; building the reviewed dataset now (target ≈5,000 reviewed stories, then generated ones that follow them)
 
 ### 🏛️ [Assembly_KB](https://github.com/rajeshthokala10/Assembly_KB): multilingual legislative RAG ingestion
 OCR for Telugu, Hindi and English (including legacy-font Indic text), hierarchical parent/child chunking, hybrid **BGE-M3 dense + BM25 sparse** embeddings and a Qdrant schema. It runs as a separate service from the query API.
